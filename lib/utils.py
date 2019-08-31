@@ -3,6 +3,7 @@ Utility functions for module
 '''
 import os
 import re
+import pickle
 
 
 import pyedflib
@@ -86,6 +87,7 @@ def load_tfrecords(tf_rec_data_dir='data/processed_data'):
     return dataset
 
 def preprocess_data(dataset,
+                    featurize_func,
                     seq_len=30,
                     pulse_sample_rate=16,
                     data_stride=30):
@@ -94,6 +96,7 @@ def preprocess_data(dataset,
 
     Parameters:
     dataset (tf.data.Dataset) : dataset of patient records
+    featurize_func (function) : function used to create datapoints out of patient records
     seq_len (int) : length of sequence in output datapoints
     pulse_sample_rate (int) : given sample rate in edf, becomes dimension of feature vector
     data_stride (int) : determines how many datapoints are generated from single patient record
@@ -104,20 +107,20 @@ def preprocess_data(dataset,
 
     """
     #preprocessing steps on dataset
-    dataset = dataset.map(_to_dense_tensors)
+    dataset = dataset.map(to_dense_tensors)
     X = []
     y = []
     for dp in dataset:
-        xy = _featurize(dp,
-                        seq_len=seq_len,
-                        pulse_sample_rate=pulse_sample_rate,
-                        data_stride=data_stride)
+        xy = featurize_func(dp,
+                            seq_len=seq_len,
+                            pulse_sample_rate=pulse_sample_rate,
+                            data_stride=data_stride)
         X.extend(xy[0])
         y.extend(xy[1])
     dataset = tf.data.Dataset.from_tensor_slices((tf.stack(X),tf.stack(y)))
     return dataset
 
-def _to_dense_tensors(element):
+def to_dense_tensors(element):
     """
     Preprocessing helper function for load_tfrecords,
     returns features and labels as dense vectors
@@ -140,7 +143,7 @@ def _to_dense_tensors(element):
     output_dict = {'y':y, 'x':x}
     return output_dict
 
-def _featurize(element, seq_len=30, pulse_sample_rate=16, data_stride=30):
+def featurize(element, seq_len=30, pulse_sample_rate=16, data_stride=30):
     """
     Normalizes pulse data by patient across night of sleep by subtracting mean
     and dividing by standard deviation
@@ -177,6 +180,70 @@ def _featurize(element, seq_len=30, pulse_sample_rate=16, data_stride=30):
         X.append(x[data_stride*i:data_stride*i+seq_len])
         Y.append(y[data_stride*i:data_stride*i+seq_len])
     return (X,Y)
+
+
+def featurize_2(element, seq_len=30, pulse_sample_rate=16, data_stride=30, outlier_threshold=1.5):
+    """
+    Normalizes pulse data by patient across night of sleep by subtracting mean
+    and dividing by standard deviation, remove outliers according to outlier_filter
+
+    Converts single patient record into many datapoints, each datapoint is a
+    seq_len length sequence with pule_sample_rate dimensional features and 1
+    dimensional labels
+
+    Parameters:
+    element : element of tf.data.TFRecordDataset
+    seq_len (int) : length of sequence in output datapoints
+    pulse_sample_rate (int) : given sample rate in edf, becomes dimension of feature vector
+    data_stride (int) : determines how many datapoints are generated from single patient record
+    outlier_threshold (float) : outlier threshold passed into outlier_filter
+
+    Returns:
+    output_tuple : collection of new datapoints
+
+
+    """
+    y = element['y']
+    x = element['x']
+    X = []
+    Y = []
+    #normalize pulse data by night of sleep
+    x = (x - tf.math.reduce_mean(x)) / tf.math.reduce_std(x)
+    #convert night of sleep from 1 dimensional sequence of num samples length
+    #to a sequence of pulse_sample_rate dimension of num seconds length
+    num_seconds = x.shape[0]//pulse_sample_rate
+    x_trunc = x[:pulse_sample_rate*(num_seconds)]
+    x = tf.reshape(x_trunc,[num_seconds,pulse_sample_rate])
+    #create new datapoints, according to data_stride
+    num_data_points = (x.shape[0]//data_stride) - (seq_len//data_stride)
+    for i in range(0,num_data_points):
+        x_seq = x[data_stride*i:data_stride*i+seq_len]
+        y_seq = y[data_stride*i:data_stride*i+seq_len]
+        if not outlier_filter(x_seq,y_seq,outlier_threshold):
+            X.append(x_seq)
+            Y.append(y_seq)
+    return (X,Y)
+
+
+
+def outlier_filter(x,y, threshold):
+    """
+    Detects if datapoint is outlier, where outlier is defined as containing a
+    normalized pulse with absolute value > threshold and no apnea labels
+
+    Parameters:
+    x (tensorflow.python.framework.ops.EagerTensor) : feature vector
+    y (tensorflow.python.framework.ops.EagerTensor) : label vector
+    threshold (float) : outlier threshold
+
+    Returns:
+    outlier (boolean) : whether datapoint (x,y) is an outlier
+    """
+    features_over_threshold = (np.absolute(x.numpy().flatten()) > 1.5).any()
+    contains_no_apnea_labels = y.numpy().mean() == 0
+    outlier = (features_over_threshold and contains_no_apnea_labels)
+    return outlier
+
 
 def get_record_names(data_dir):
     """Helper function to get record names without file extensions
@@ -220,5 +287,43 @@ def split_dataset(dataset, split_ratio, seed=42):
     first_data = dataset.take(first_size)
     second_data = dataset.skip(first_size).take(second_size)
 
-
     return (first_data, second_data)
+
+def save_session(session_name,
+                 model,
+                 model_params,
+                 num_records,
+                 test_split,
+                 val_split,
+                 preprocess_data,
+                 preprocess_params,
+                 data_bal,
+                 data_size,
+                 training_params,
+                 optimizer,
+                 optimizer_params,
+                 train_res,
+                 test_res,
+                 log_dir,
+                 model_weights_dir,
+                 res_path = 'results'):
+    session_dict = {}
+    session_dict['model_class'] = str(type(model))
+    session_dict['model_params'] = model_params
+    session_dict['num_patient_records'] = num_records
+    session_dict['test_split'] = test_split
+    session_dict['val_split'] = val_split
+    session_dict['preprocess_function'] = str(preprocess_data)
+    session_dict['preprocess_args'] = preprocess_params
+    session_dict['data_bal'] = data_bal
+    session_dict['data_size'] = data_size
+    session_dict['training_params'] = training_params
+    session_dict['optimizer'] = str(type(optimizer))
+    session_dict['optimizer_params'] = optimizer_params
+    session_dict['train_res'] = train_res
+    session_dict['test_res'] =test_res
+    session_dict['training_log_dir' ] = log_dir
+    session_dict['model_weights_dir'] =model_weights_dir
+    save_path = os.path.join(res_path,session_name + '.pickle')
+    with open(save_path, 'wb') as handle:
+        pickle.dump(session_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)

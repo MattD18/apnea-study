@@ -5,32 +5,39 @@ Module for training loops
 import os
 
 import tensorflow as tf
+import numpy as np
+from sklearn.metrics import (precision_score,
+                             recall_score,
+                             f1_score,
+                             accuracy_score,
+                             roc_auc_score)
 
 from lib.utils import split_dataset
 
 
-def train(model, dataset, loss_object, optimizer, log_dir,
-          val_split=.2, num_epochs=10, batch_size=16):
+def train(model, train_data,  val_data, loss_object, optimizer, log_dir,model_weights_dir,
+          num_epochs=10, batch_size=16, apnea_weight=1.0):
     """
     training loop for a given model and dataset for apnea second classification,
     tracks loss and accuracy
 
     Parameters:
     model (tensorflow.keras.Model) : deep classifier for apnea second classification
-    dataset (tf.data.Dataset) : datapoints have features of dimension seq_len x
+    train_data (tf.data.Dataset) : datapoints have features of dimension seq_len x
                                 sample_rate and 1/0 apnea labels
+    val_data (tf.data.Dataset) : datapoints have features of dimension seq_len x
+                                    sample_rate and 1/0 apnea labels
     loss_object (tf.keras.losses.Loss) : loss used in training
     optimizer (tf.keras.optimizers.Optimizer) : optimizer used in training
     log_dir (str) : directory to write training results
-    val_split (float) : percent of train set to use for validation
+    model_weights_dir (str) : directory to write model class weights
     num_epochs (int) : number of epochs to train for
     batch_size (int) : batch size for minibatching
+    apnea_weight (float) : weight to assign positive labels during training
 
     """
-    train_size = int((1-val_split)*dataset._tensors[0].shape[0])
-    val_size = int((val_split)*dataset._tensors[0].shape[0])
-    train_data, val_data = split_dataset(dataset, val_split)
-
+    train_size = train_data._tensors[0].shape[0]
+    val_size = val_data._tensors[0].shape[0]
 
     train_loss = tf.keras.metrics.Mean(name='train_loss')
     train_acc = tf.keras.metrics.BinaryAccuracy(name = 'train_acc',threshold = .5)
@@ -48,9 +55,10 @@ def train(model, dataset, loss_object, optimizer, log_dir,
         #train model using minibatches
         for x_batch,y_batch in train_data.batch(batch_size, drop_remainder=True):
             with tf.GradientTape() as tape:
-                predictions = tf.reshape(model(x_batch),[-1])
-                labels = tf.reshape(y_batch,[-1])
-                loss = loss_object(labels, predictions)
+                predictions = tf.expand_dims(tf.reshape(model(x_batch),[-1]),1)
+                labels = tf.expand_dims(tf.reshape(y_batch,[-1]),1)
+                sample_weight = tf.convert_to_tensor((labels.numpy()*apnea_weight)+1)
+                loss = loss_object(labels, predictions, sample_weight=sample_weight)
             grads = tape.gradient(loss, model.trainable_variables)
             optimizer.apply_gradients(zip(grads, model.trainable_variables))
             train_loss(loss)
@@ -62,9 +70,10 @@ def train(model, dataset, loss_object, optimizer, log_dir,
 
         #evaluate model perforamnce on validation set at each epoch
         for x_val, y_val in val_data.batch(batch_size, drop_remainder=False):
-            predictions = tf.reshape(model(x_val),[-1])
-            labels = tf.reshape(y_val,[-1])
-            loss = loss_object(labels, predictions)
+            predictions = tf.expand_dims(tf.reshape(model(x_batch),[-1]),1)
+            labels = tf.expand_dims(tf.reshape(y_batch,[-1]),1)
+            sample_weight = tf.convert_to_tensor((labels.numpy()+1)*apnea_weight)
+            loss = loss_object(labels, predictions, sample_weight=sample_weight)
             val_loss(loss)
             val_acc.update_state(labels,predictions)
         #write epoch val results to log
@@ -77,3 +86,37 @@ def train(model, dataset, loss_object, optimizer, log_dir,
         train_acc.reset_states()
         val_loss.reset_states()
         val_acc.reset_states()
+
+    model.save_weights(os.path.join(model_weights_dir,'weights.ckpt'))
+
+def evaluate(model, dataset):
+    """
+    Evaluate model on sleep apnea dataset
+
+    Parameters:
+    model (tensorflow.keras.Model) : deep classifier for apnea second classification
+    dataset (tf.data.Dataset) : datapoints have features of dimension seq_len x
+                                sample_rate and 1/0 apnea labels
+
+    Return:
+    eval_res (dict) : dictionary of accuracy, recall, precision, f1, and auc
+    """
+    n = dataset._tensors[0].shape[0]
+    for x, y in dataset.batch(n,drop_remainder=False):
+        y_pred_probs = tf.reshape(model(x),[-1]).numpy()
+        y_true = tf.reshape(y,[-1]).numpy()
+    y_pred = np.round(y_pred_probs)
+
+    accuracy = accuracy_score(y_true, y_pred)
+    recall = recall_score(y_true, y_pred , average="binary")
+    precision = precision_score(y_true, y_pred , average="binary")
+    f1 = f1_score(y_true, y_pred, average="binary")
+    auc = roc_auc_score(y_true,y_pred_probs)
+
+    eval_res = {'accuracy' : accuracy,
+                'recall' : recall,
+                'precision' : precision,
+                'f1' : f1,
+                'auc': auc}
+
+    return eval_res
