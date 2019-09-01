@@ -1,1 +1,2 @@
 pyEDFlib==0.1.14
+tensorflow==2.0.0-rc0
