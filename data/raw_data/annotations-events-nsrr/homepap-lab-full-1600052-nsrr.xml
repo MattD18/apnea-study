@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PSGAnnotation>
+<SoftwareVersion>Compumedics</SoftwareVersion>
+<EpochLength>30</EpochLength>
+<ScoredEvents>
+<ScoredEvent>
+<EventType/>
+<EventConcept>Recording Start Time</EventConcept>
+<Start>0</Start>
+<Duration>25635.0</Duration>
+<ClockTime>01.01.85 22.18.38</ClockTime>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24</Start>
+<Duration>48</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>77</Start>
+<Duration>28</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>107</Start>
+<Duration>46</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>179.9</Start>
+<Duration>21.3</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>254.7</Start>
+<Duration>45.3</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>302</Start>
+<Duration>47</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>631</Start>
+<Duration>36</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>876</Start>
+<Duration>41</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>919.6</Start>
+<Duration>42.6</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1189</Start>
+<Duration>22</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1231</Start>
+<Duration>67</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1299</Start>
+<Duration>12</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1337</Start>
+<Duration>12</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1353</Start>
+<Duration>9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1365</Start>
+<Duration>22</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1867</Start>
+<Duration>17</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1884</Start>
+<Duration>19</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2156</Start>
+<Duration>21</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2198</Start>
+<Duration>64</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2385</Start>
+<Duration>22</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2442</Start>
+<Duration>59</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2704</Start>
+<Duration>23</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2730.7</Start>
+<Duration>14.4</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2772</Start>
+<Duration>24</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2900</Start>
+<Duration>9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2914</Start>
+<Duration>25</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>2941</Start>
+<Duration>72</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3093</Start>
+<Duration>30</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3259</Start>
+<Duration>12</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3700</Start>
+<Duration>22</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>4127</Start>
+<Duration>23</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>4604</Start>
+<Duration>31</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5053</Start>
+<Duration>30</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5084</Start>
+<Duration>23</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5477</Start>
+<Duration>24</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5714.8</Start>
+<Duration>14.3</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5838</Start>
+<Duration>79.9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5992</Start>
+<Duration>21</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6216</Start>
+<Duration>28</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6440</Start>
+<Duration>24</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6683</Start>
+<Duration>29</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6888</Start>
+<Duration>19</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7026</Start>
+<Duration>66</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>98.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7096</Start>
+<Duration>23</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7343</Start>
+<Duration>23</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7390</Start>
+<Duration>59</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7759</Start>
+<Duration>55</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7848</Start>
+<Duration>59</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7919</Start>
+<Duration>57</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8316</Start>
+<Duration>35</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8435</Start>
+<Duration>24.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8495.3</Start>
+<Duration>23.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8556</Start>
+<Duration>40</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8626</Start>
+<Duration>24</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8795</Start>
+<Duration>58</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8913</Start>
+<Duration>35</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9019</Start>
+<Duration>34</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9088</Start>
+<Duration>35</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9604</Start>
+<Duration>68.9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9748.3</Start>
+<Duration>20</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9800.4</Start>
+<Duration>11.2</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9822.8</Start>
+<Duration>31.9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9876.1</Start>
+<Duration>23.9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10344</Start>
+<Duration>6</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10412.7</Start>
+<Duration>48</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11570.2</Start>
+<Duration>46.7</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>11718</Start>
+<Duration>9.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11817</Start>
+<Duration>7</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>12007</Start>
+<Duration>35</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12022.5</Start>
+<Duration>7.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12081.1</Start>
+<Duration>7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12164.9</Start>
+<Duration>10.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12191.2</Start>
+<Duration>7.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12240.2</Start>
+<Duration>13.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12270.5</Start>
+<Duration>15.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>12365.1</Start>
+<Duration>23.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13056.8</Start>
+<Duration>9.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13082.4</Start>
+<Duration>7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>13092.2</Start>
+<Duration>23.7</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>13123.4</Start>
+<Duration>57.6</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13154.3</Start>
+<Duration>7.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13209</Start>
+<Duration>16.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13238.7</Start>
+<Duration>20.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>13473</Start>
+<Duration>25</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>98.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>13539</Start>
+<Duration>26</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>95</SpO2Nadir>
+<SpO2Baseline>98.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13910.6</Start>
+<Duration>13.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13950.9</Start>
+<Duration>5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13972</Start>
+<Duration>10.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>14070.3</Start>
+<Duration>20</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14339</Start>
+<Duration>17</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15270.4</Start>
+<Duration>16.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15342.8</Start>
+<Duration>12.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15406.9</Start>
+<Duration>12.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15484</Start>
+<Duration>30</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15510.5</Start>
+<Duration>5.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16088.9</Start>
+<Duration>20.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16146.6</Start>
+<Duration>8.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16171</Start>
+<Duration>56</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16190.2</Start>
+<Duration>5.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16224.7</Start>
+<Duration>5.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16279.5</Start>
+<Duration>10.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16351</Start>
+<Duration>6.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16368</Start>
+<Duration>10.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16388.3</Start>
+<Duration>19.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16463.7</Start>
+<Duration>7.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16575</Start>
+<Duration>15</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16630</Start>
+<Duration>33</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16865</Start>
+<Duration>17</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16883</Start>
+<Duration>9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16920.2</Start>
+<Duration>5.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16954.5</Start>
+<Duration>11.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>16993.9</Start>
+<Duration>10.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17049</Start>
+<Duration>19</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17122</Start>
+<Duration>13</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>17204.2</Start>
+<Duration>20.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17230</Start>
+<Duration>15</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17248</Start>
+<Duration>25</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17307.9</Start>
+<Duration>6.4</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17365</Start>
+<Duration>14</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17369.8</Start>
+<Duration>4</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17406</Start>
+<Duration>24.7</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17427.8</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>17438.1</Start>
+<Duration>22.9</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17458.5</Start>
+<Duration>3.4</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17462.4</Start>
+<Duration>21</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17710</Start>
+<Duration>35.3</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17800.7</Start>
+<Duration>37.6</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>17880.6</Start>
+<Duration>24.6</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>18003</Start>
+<Duration>14</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>18032</Start>
+<Duration>0.7</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>18116</Start>
+<Duration>52</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>18180</Start>
+<Duration>39</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>18676</Start>
+<Duration>27</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>18809</Start>
+<Duration>25</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19122</Start>
+<Duration>38</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19511</Start>
+<Duration>41</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19714</Start>
+<Duration>59</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19886.5</Start>
+<Duration>2.4</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19888</Start>
+<Duration>31.6</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19897.3</Start>
+<Duration>9.9</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19937.3</Start>
+<Duration>22.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19943.1</Start>
+<Duration>36.2</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>19966.7</Start>
+<Duration>3</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19993.4</Start>
+<Duration>28.9</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>20021</Start>
+<Duration>4.4</Duration>
+<SignalLocation>Nasal Cannula</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20025</Start>
+<Duration>22.8</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>20285.5</Start>
+<Duration>18.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20286.3</Start>
+<Duration>56.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>20344.2</Start>
+<Duration>24.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20483</Start>
+<Duration>52</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20725.5</Start>
+<Duration>35.8</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20876</Start>
+<Duration>11</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>95</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>21822</Start>
+<Duration>18</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>21862</Start>
+<Duration>52</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22326</Start>
+<Duration>45</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22376</Start>
+<Duration>14</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22558</Start>
+<Duration>32</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22600</Start>
+<Duration>24</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>22640</Start>
+<Duration>9.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22645</Start>
+<Duration>13</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>22700.1</Start>
+<Duration>5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>22727</Start>
+<Duration>10.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>22756.7</Start>
+<Duration>7.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22792</Start>
+<Duration>42</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>22837.4</Start>
+<Duration>13.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>22848.1</Start>
+<Duration>26.2</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22880</Start>
+<Duration>38</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>22902</Start>
+<Duration>32.4</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22928.9</Start>
+<Duration>30.2</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>22957.8</Start>
+<Duration>33</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>22986.7</Start>
+<Duration>29.3</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23084.7</Start>
+<Duration>10</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23088</Start>
+<Duration>16</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23104.6</Start>
+<Duration>13.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23111</Start>
+<Duration>34</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23152</Start>
+<Duration>70</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23152.8</Start>
+<Duration>33.5</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23199.7</Start>
+<Duration>37.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23233</Start>
+<Duration>60</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23244.4</Start>
+<Duration>10.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23259</Start>
+<Duration>36.1</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23303</Start>
+<Duration>32</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23346</Start>
+<Duration>60</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23409</Start>
+<Duration>26.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23435</Start>
+<Duration>40.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23457.4</Start>
+<Duration>52</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23569.9</Start>
+<Duration>84.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23585.5</Start>
+<Duration>40.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23637.4</Start>
+<Duration>5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23695</Start>
+<Duration>17.8</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23702.2</Start>
+<Duration>25.6</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23725.3</Start>
+<Duration>25.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23734.9</Start>
+<Duration>3.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23781</Start>
+<Duration>35</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23874</Start>
+<Duration>30.7</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23902</Start>
+<Duration>45.2</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23938.9</Start>
+<Duration>9.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24008.2</Start>
+<Duration>21.1</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24023</Start>
+<Duration>42.4</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24136.7</Start>
+<Duration>16.8</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24146.9</Start>
+<Duration>42.9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24263</Start>
+<Duration>29</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24304</Start>
+<Duration>51</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>24378</Start>
+<Duration>3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>24408.3</Start>
+<Duration>4.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>24443.5</Start>
+<Duration>10.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24468.7</Start>
+<Duration>21.8</Duration>
+<SignalLocation>Airflow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24485.1</Start>
+<Duration>26.2</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24548.1</Start>
+<Duration>40.9</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>24552.8</Start>
+<Duration>16.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24652.2</Start>
+<Duration>30.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24795.7</Start>
+<Duration>19.3</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>94</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>25171</Start>
+<Duration>24</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>25204.6</Start>
+<Duration>9.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>25220.9</Start>
+<Duration>20.1</Duration>
+<SignalLocation>SaO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 artifact|SpO2 artifact</EventConcept>
+<Start>25632.4</Start>
+<Duration>175.4</Duration>
+<SignalLocation>SaO2</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>0.0</Start>
+<Duration>8400.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>8400.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>8430.0</Start>
+<Duration>3570.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>12000.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>12090.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>12150.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>12270.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>12330.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>12360.0</Start>
+<Duration>660.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>13020.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>13200.0</Start>
+<Duration>690.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>13890.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>14070.0</Start>
+<Duration>1230.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>15300.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>15330.0</Start>
+<Duration>150.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>15480.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>15510.0</Start>
+<Duration>630.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>16140.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>16200.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>16320.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>16350.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>16410.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>16470.0</Start>
+<Duration>420.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>16890.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>17070.0</Start>
+<Duration>330.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>17400.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>17430.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>17460.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>17490.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>17520.0</Start>
+<Duration>2520.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>20040.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>20070.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>20250.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>20310.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>20340.0</Start>
+<Duration>2310.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>22650.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>22680.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>22710.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>22770.0</Start>
+<Duration>210.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>22980.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23010.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23040.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23070.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>23100.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23130.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23220.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23250.0</Start>
+<Duration>270.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23520.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23550.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23730.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23790.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23820.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23940.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23970.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>24000.0</Start>
+<Duration>150.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>24150.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>24210.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>24240.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>24420.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>24480.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>24540.0</Start>
+<Duration>1080.0</Duration>
+</ScoredEvent>
+</ScoredEvents>
+</PSGAnnotation>

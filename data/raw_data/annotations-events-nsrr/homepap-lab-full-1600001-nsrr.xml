@@ -1,0 +1,5520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PSGAnnotation>
+<SoftwareVersion>Compumedics</SoftwareVersion>
+<EpochLength>30</EpochLength>
+<ScoredEvents>
+<ScoredEvent>
+<EventType/>
+<EventConcept>Recording Start Time</EventConcept>
+<Start>0</Start>
+<Duration>25875.0</Duration>
+<ClockTime>01.01.85 22.04.28</ClockTime>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 artifact|SpO2 artifact</EventConcept>
+<Start>0</Start>
+<Duration>162.4</Duration>
+<SignalLocation>SAO2</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>0</Start>
+<Duration>1.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>30.9</Start>
+<Duration>18</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>58.3</Start>
+<Duration>32.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>91</Start>
+<Duration>59</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>150</Start>
+<Duration>34.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>807</Start>
+<Duration>10</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>828.2</Start>
+<Duration>16</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>902.6</Start>
+<Duration>6.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>934.3</Start>
+<Duration>3.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>992.9</Start>
+<Duration>6.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1026</Start>
+<Duration>9.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1072.4</Start>
+<Duration>9.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1095.9</Start>
+<Duration>6.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1118.8</Start>
+<Duration>15.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1166.7</Start>
+<Duration>11.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1197.6</Start>
+<Duration>4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1214.1</Start>
+<Duration>13.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1252.9</Start>
+<Duration>2.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1280.9</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1330.4</Start>
+<Duration>7.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1354.6</Start>
+<Duration>6.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1366.1</Start>
+<Duration>11.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1389.4</Start>
+<Duration>2.8</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1414.9</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1430.3</Start>
+<Duration>3.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1438</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>1458.7</Start>
+<Duration>13</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>1465.2</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1691</Start>
+<Duration>85</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>1776</Start>
+<Duration>34</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2376.6</Start>
+<Duration>8.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2398.5</Start>
+<Duration>3.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2595</Start>
+<Duration>4.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2649.1</Start>
+<Duration>15.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2686.7</Start>
+<Duration>3.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2710.1</Start>
+<Duration>3.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2728.7</Start>
+<Duration>7.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2749.8</Start>
+<Duration>6.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2773.7</Start>
+<Duration>3.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>2831.1</Start>
+<Duration>18.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>3057.7</Start>
+<Duration>6.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>3059.4</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>3139.9</Start>
+<Duration>2.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>3171</Start>
+<Duration>2.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>3191.9</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>3217.8</Start>
+<Duration>2.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3241</Start>
+<Duration>22.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>3243.5</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3254</Start>
+<Duration>35</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3273.3</Start>
+<Duration>23.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3288.5</Start>
+<Duration>0.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3293.6</Start>
+<Duration>35.9</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3309.4</Start>
+<Duration>2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3334.6</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3366.7</Start>
+<Duration>5.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3393.6</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3418.2</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>3434.5</Start>
+<Duration>5.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - left|Limb Movement (Left)</EventConcept>
+<Start>3447</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3452.8</Start>
+<Duration>19.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3455.4</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3465</Start>
+<Duration>24</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3486</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3505.3</Start>
+<Duration>2.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3532.9</Start>
+<Duration>2.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3545.1</Start>
+<Duration>26.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3555.6</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3565</Start>
+<Duration>32</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>3573</Start>
+<Duration>8.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3601.3</Start>
+<Duration>2.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3629.2</Start>
+<Duration>2.4</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3653.5</Start>
+<Duration>2.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3681.7</Start>
+<Duration>3.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3708.1</Start>
+<Duration>4.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3729.1</Start>
+<Duration>2.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3750.4</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3768.5</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3790.6</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3811.9</Start>
+<Duration>0.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3833.6</Start>
+<Duration>3.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3835.7</Start>
+<Duration>17.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3851</Start>
+<Duration>27</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3871.8</Start>
+<Duration>17.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3881</Start>
+<Duration>2.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3887</Start>
+<Duration>24</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3913.4</Start>
+<Duration>2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3946</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Limb movement - right|Limb Movement (Right)</EventConcept>
+<Start>3964.1</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>3971.8</Start>
+<Duration>23.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>3978.4</Start>
+<Duration>33.7</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>3982.3</Start>
+<Duration>13.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>4030.4</Start>
+<Duration>12.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>4067.1</Start>
+<Duration>18.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>4100.3</Start>
+<Duration>11.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>4139</Start>
+<Duration>44</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>4217.9</Start>
+<Duration>243.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 artifact|SpO2 artifact</EventConcept>
+<Start>4234</Start>
+<Duration>257.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>4497</Start>
+<Duration>13</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>4730</Start>
+<Duration>108</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>4858</Start>
+<Duration>110</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>4946.9</Start>
+<Duration>8.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>4998.2</Start>
+<Duration>14.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>4998.9</Start>
+<Duration>12.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5017</Start>
+<Duration>14</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5031</Start>
+<Duration>40</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5051.3</Start>
+<Duration>18.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5105.7</Start>
+<Duration>5.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5135.8</Start>
+<Duration>4.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5244.4</Start>
+<Duration>4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5260.8</Start>
+<Duration>12.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5291</Start>
+<Duration>5.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5470.9</Start>
+<Duration>18.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5576.1</Start>
+<Duration>6.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5584.6</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5628.3</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5668.6</Start>
+<Duration>2.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5700.7</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5732.5</Start>
+<Duration>2.8</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5761.7</Start>
+<Duration>2.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5787.6</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>5797.5</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>5810.8</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>5812.8</Start>
+<Duration>20.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5823</Start>
+<Duration>33</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>5829.1</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>5855.6</Start>
+<Duration>19.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>5859.1</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5865</Start>
+<Duration>29</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>5865.2</Start>
+<Duration>16.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>5867.1</Start>
+<Duration>7.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>5898</Start>
+<Duration>165</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6027.1</Start>
+<Duration>3.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6040.4</Start>
+<Duration>17.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6194</Start>
+<Duration>9</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6616</Start>
+<Duration>5.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6672.8</Start>
+<Duration>16.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6775.2</Start>
+<Duration>4.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6832.4</Start>
+<Duration>3.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6852.9</Start>
+<Duration>3.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6886.2</Start>
+<Duration>3.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6944.2</Start>
+<Duration>5.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>6945.1</Start>
+<Duration>18.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6964.1</Start>
+<Duration>22.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>6980.6</Start>
+<Duration>20.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>6994.6</Start>
+<Duration>27.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>6997.4</Start>
+<Duration>5.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7026</Start>
+<Duration>59</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7038.9</Start>
+<Duration>25.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7077.2</Start>
+<Duration>21.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7093</Start>
+<Duration>30</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>7124.7</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>7186.8</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>7206.6</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>7213.7</Start>
+<Duration>3.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>7239.7</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>7260.6</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7275</Start>
+<Duration>17.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7278</Start>
+<Duration>33</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7318.4</Start>
+<Duration>28.3</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7319.3</Start>
+<Duration>17.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>7333.9</Start>
+<Duration>7.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7352</Start>
+<Duration>13.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7365</Start>
+<Duration>18</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7396.4</Start>
+<Duration>15</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7411</Start>
+<Duration>25</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7426.7</Start>
+<Duration>19.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7443</Start>
+<Duration>30</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>83</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7466</Start>
+<Duration>15</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7479</Start>
+<Duration>30</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7497.3</Start>
+<Duration>21.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7514</Start>
+<Duration>35</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>7517.8</Start>
+<Duration>3.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7537.9</Start>
+<Duration>12.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7554</Start>
+<Duration>18.4</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7569.5</Start>
+<Duration>13.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7576.6</Start>
+<Duration>26.7</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>90.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7595.8</Start>
+<Duration>16</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7614</Start>
+<Duration>21</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7626.9</Start>
+<Duration>17.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7644</Start>
+<Duration>28</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7676.1</Start>
+<Duration>20.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7686</Start>
+<Duration>39</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>80</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>7695.3</Start>
+<Duration>16.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7726</Start>
+<Duration>50</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>7737.9</Start>
+<Duration>11.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7765.8</Start>
+<Duration>14.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7777</Start>
+<Duration>29</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>7801.5</Start>
+<Duration>15.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7810</Start>
+<Duration>37</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>85</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>7838</Start>
+<Duration>15.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7850</Start>
+<Duration>32</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7882</Start>
+<Duration>50</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>80</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>7884.7</Start>
+<Duration>18</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>7900.9</Start>
+<Duration>13.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7932</Start>
+<Duration>52</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>7937.9</Start>
+<Duration>21.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>7973</Start>
+<Duration>17.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>7987</Start>
+<Duration>33</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>8023.8</Start>
+<Duration>17.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8033</Start>
+<Duration>29</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>8062</Start>
+<Duration>13.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8074</Start>
+<Duration>29</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8074.6</Start>
+<Duration>13.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8117.1</Start>
+<Duration>3.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8134</Start>
+<Duration>2.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8167.7</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8191.4</Start>
+<Duration>5.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8192.4</Start>
+<Duration>0.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>8205.9</Start>
+<Duration>18.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8216</Start>
+<Duration>34</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8257.3</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8288.2</Start>
+<Duration>2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8290.1</Start>
+<Duration>4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8312.3</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8332.1</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8339</Start>
+<Duration>10.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8364</Start>
+<Duration>76</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8367.1</Start>
+<Duration>6.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>8370.4</Start>
+<Duration>14.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8370.5</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8380.5</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8393.8</Start>
+<Duration>2.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8412.7</Start>
+<Duration>2.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8429.4</Start>
+<Duration>1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>8431.4</Start>
+<Duration>12.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8442</Start>
+<Duration>19</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8456.6</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8469</Start>
+<Duration>83</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8477.1</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8489.1</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8506.7</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8518.9</Start>
+<Duration>0.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8533.9</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8550.3</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8563</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8587.6</Start>
+<Duration>2.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8600</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>8613</Start>
+<Duration>13.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>8626</Start>
+<Duration>15.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8637</Start>
+<Duration>19</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8663</Start>
+<Duration>157</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8679.3</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8686.5</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8716.2</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8729.2</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8751.2</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8760.3</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8783.6</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8795.7</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>8825</Start>
+<Duration>70</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8825</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8837.2</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8854.2</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8871.6</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8887.6</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8912.2</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8919.4</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8949.5</Start>
+<Duration>2.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>8959.1</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>8983.7</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9000</Start>
+<Duration>2.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9024.7</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9039.3</Start>
+<Duration>1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9058.7</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9077.6</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9089.9</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9115.2</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9127.4</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9154.9</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9165.2</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9190.7</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9223.8</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9263.6</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9288.5</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9300.7</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>9301.7</Start>
+<Duration>3.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9327.4</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9377.5</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9389.4</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9394.8</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9422.4</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9466.2</Start>
+<Duration>3.6</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9503</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9535.1</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9548.1</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9574.8</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9613.6</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9662.5</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9685.2</Start>
+<Duration>2.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9717.5</Start>
+<Duration>2.3</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9754.4</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9764.6</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>9778.8</Start>
+<Duration>15</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>9794</Start>
+<Duration>16</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9804</Start>
+<Duration>2.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9846.6</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9867.4</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9893</Start>
+<Duration>1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9918.1</Start>
+<Duration>2.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9929</Start>
+<Duration>1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>9974.5</Start>
+<Duration>1</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>9997.4</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>10015.6</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>10035.7</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>10080</Start>
+<Duration>0.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10113.4</Start>
+<Duration>15.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10124</Start>
+<Duration>53</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>10147.7</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>10153.1</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10177</Start>
+<Duration>61</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10194.6</Start>
+<Duration>22.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>10229</Start>
+<Duration>16.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10243</Start>
+<Duration>30</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>83</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>10244.3</Start>
+<Duration>12</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10275.1</Start>
+<Duration>36.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10288</Start>
+<Duration>44</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10328.9</Start>
+<Duration>31.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10343</Start>
+<Duration>42</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10394</Start>
+<Duration>43</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10399.5</Start>
+<Duration>11.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10426.2</Start>
+<Duration>21.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10441.1</Start>
+<Duration>42.3</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10471.3</Start>
+<Duration>23.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10485</Start>
+<Duration>35.2</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>10507.3</Start>
+<Duration>14.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10537</Start>
+<Duration>49</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10547.2</Start>
+<Duration>18.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10648</Start>
+<Duration>50</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10657.7</Start>
+<Duration>11.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10718.7</Start>
+<Duration>13.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10727</Start>
+<Duration>24</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10811.7</Start>
+<Duration>47.2</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10813.4</Start>
+<Duration>15.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10851</Start>
+<Duration>19.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10867</Start>
+<Duration>32</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10899.4</Start>
+<Duration>49.4</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10918.9</Start>
+<Duration>12.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10949.1</Start>
+<Duration>12.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10967.1</Start>
+<Duration>9.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>10969.9</Start>
+<Duration>17.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>10980</Start>
+<Duration>24.2</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>90.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>11011.2</Start>
+<Duration>25.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11022</Start>
+<Duration>56</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>11065.4</Start>
+<Duration>32.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11078</Start>
+<Duration>41</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>83</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>11120.9</Start>
+<Duration>22.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11136.9</Start>
+<Duration>24.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>11164.2</Start>
+<Duration>11.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11176</Start>
+<Duration>47</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>11182.6</Start>
+<Duration>15.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>11213.4</Start>
+<Duration>23.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>11224</Start>
+<Duration>51.3</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>11262</Start>
+<Duration>14.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>11282.3</Start>
+<Duration>11.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>11378.8</Start>
+<Duration>10.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11379</Start>
+<Duration>2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>11407.7</Start>
+<Duration>4.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11408.2</Start>
+<Duration>0.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11443.5</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11468.2</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11502.6</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11540.7</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11570.6</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>11573.1</Start>
+<Duration>6.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11603.3</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11629.9</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11652.4</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11675.8</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11703.4</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11729.8</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11758.1</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11786.1</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11813</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11847.2</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11875.7</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11901</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11933.2</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>11969.3</Start>
+<Duration>0.5</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>11979.2</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12010.2</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12046.6</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12078.3</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12113.9</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12156.5</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12189.3</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12221.3</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12252.7</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12282.3</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>12316</Start>
+<Duration>40</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12323.6</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12351</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12379.4</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12417.2</Start>
+<Duration>2.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12456.5</Start>
+<Duration>0.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12487.5</Start>
+<Duration>2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12521.2</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12550.8</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12585.2</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12615.6</Start>
+<Duration>2.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12649.7</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12679</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12711.3</Start>
+<Duration>4.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12744.5</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12785.7</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12816.1</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12851.3</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12883.9</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12924.6</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>12954.7</Start>
+<Duration>2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>12976.5</Start>
+<Duration>14.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>12993</Start>
+<Duration>55</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13026.7</Start>
+<Duration>2.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13059.6</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13088.2</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13108.7</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13110.7</Start>
+<Duration>7.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13156.3</Start>
+<Duration>2.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13187.6</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13207</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13207.7</Start>
+<Duration>8.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13232.3</Start>
+<Duration>3.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13298.9</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13307.9</Start>
+<Duration>3.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13330</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13351.3</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13352.6</Start>
+<Duration>6.4</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>13375.3</Start>
+<Duration>34.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13387.8</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>13392</Start>
+<Duration>53</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13414.6</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13445.5</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13472</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13495.5</Start>
+<Duration>8.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13502.5</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13530.7</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13559.6</Start>
+<Duration>1.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13588.4</Start>
+<Duration>4.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13617.5</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13647.4</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>13659.9</Start>
+<Duration>4.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13673.7</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13705.1</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13746.6</Start>
+<Duration>2.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13791</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13818.3</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13852.5</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13877.5</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13902.8</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13925.3</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13948.9</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>13987.5</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14026.1</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14066.4</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14101.7</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>14115.1</Start>
+<Duration>18.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14135</Start>
+<Duration>19</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14172.8</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14204.9</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>14205.3</Start>
+<Duration>10.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>14211.3</Start>
+<Duration>11.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14216</Start>
+<Duration>30</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14245.3</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14285.6</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14340.3</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14379.9</Start>
+<Duration>0.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>14380.8</Start>
+<Duration>8.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14421.2</Start>
+<Duration>3.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14444.6</Start>
+<Duration>1.1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14479.3</Start>
+<Duration>0.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14522.9</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14558.8</Start>
+<Duration>1.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14597.8</Start>
+<Duration>1.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>14629.5</Start>
+<Duration>1.3</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14658</Start>
+<Duration>54</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>14668.5</Start>
+<Duration>16.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>14704.7</Start>
+<Duration>16.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14712.5</Start>
+<Duration>22.3</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>14728.2</Start>
+<Duration>23.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14744</Start>
+<Duration>15.9</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>90.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>14749.5</Start>
+<Duration>13.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14789</Start>
+<Duration>64</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>14808.8</Start>
+<Duration>20.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14859</Start>
+<Duration>47</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>14866</Start>
+<Duration>14.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>14900.6</Start>
+<Duration>14.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14916</Start>
+<Duration>24</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>14932.8</Start>
+<Duration>19.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14950</Start>
+<Duration>28</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>14965.4</Start>
+<Duration>16.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>14985.4</Start>
+<Duration>13.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>14989.7</Start>
+<Duration>16</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15005</Start>
+<Duration>30</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>92.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>15027.1</Start>
+<Duration>18.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15036</Start>
+<Duration>37</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15069.6</Start>
+<Duration>24.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15082</Start>
+<Duration>41</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>84</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15092.6</Start>
+<Duration>13.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15126</Start>
+<Duration>49</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>15134.8</Start>
+<Duration>17.6</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15173.5</Start>
+<Duration>20.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15187</Start>
+<Duration>39</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>85</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15198.7</Start>
+<Duration>9.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15234</Start>
+<Duration>59</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>15241.6</Start>
+<Duration>13</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15282.2</Start>
+<Duration>16.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15298</Start>
+<Duration>34</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>15323.6</Start>
+<Duration>25.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15335</Start>
+<Duration>41</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15383.6</Start>
+<Duration>15.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15404</Start>
+<Duration>24</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15440.1</Start>
+<Duration>21.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15455</Start>
+<Duration>37</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>85</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15462.1</Start>
+<Duration>13.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15503</Start>
+<Duration>46</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>15507.2</Start>
+<Duration>19.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15526</Start>
+<Duration>9.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>15557.1</Start>
+<Duration>12.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15560</Start>
+<Duration>46</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15592.9</Start>
+<Duration>17.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15609</Start>
+<Duration>33</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>88</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15643</Start>
+<Duration>44</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>15651.7</Start>
+<Duration>14.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15669.3</Start>
+<Duration>20.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15692</Start>
+<Duration>16</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>86</SpO2Nadir>
+<SpO2Baseline>93.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>15766.9</Start>
+<Duration>15</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>15934</Start>
+<Duration>184</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16250</Start>
+<Duration>68</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>16316.1</Start>
+<Duration>144.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 artifact|SpO2 artifact</EventConcept>
+<Start>16322.3</Start>
+<Duration>269.5</Duration>
+<SignalLocation>SAO2</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>16461</Start>
+<Duration>96.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16626</Start>
+<Duration>24</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16654</Start>
+<Duration>12</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>16666</Start>
+<Duration>23</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>17625.7</Start>
+<Duration>5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>17650.4</Start>
+<Duration>6.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>17706.1</Start>
+<Duration>3.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17728.6</Start>
+<Duration>0.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17753.3</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17785.6</Start>
+<Duration>0.7</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17818.4</Start>
+<Duration>2.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>17838.4</Start>
+<Duration>3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17842.1</Start>
+<Duration>1.4</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17866</Start>
+<Duration>0.8</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>17899.8</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>17910.4</Start>
+<Duration>28.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>18038.6</Start>
+<Duration>8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>18196.6</Start>
+<Duration>16.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>18634.8</Start>
+<Duration>4.9</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>18663</Start>
+<Duration>28</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>18753.3</Start>
+<Duration>6.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>18779.9</Start>
+<Duration>3.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19031.1</Start>
+<Duration>15.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19073.8</Start>
+<Duration>9.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19095.6</Start>
+<Duration>3.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19095.9</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - right|PLM (Right)</EventConcept>
+<Start>19106.3</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Rleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19142.3</Start>
+<Duration>1.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19187.6</Start>
+<Duration>0.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19228.6</Start>
+<Duration>4.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19238.4</Start>
+<Duration>1</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19248.6</Start>
+<Duration>1.2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19282.1</Start>
+<Duration>2</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19282.3</Start>
+<Duration>4.5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19333.9</Start>
+<Duration>0.9</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19362.5</Start>
+<Duration>1.6</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19376.9</Start>
+<Duration>4.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Limb Movement|Limb Movement</EventType>
+<EventConcept>Periodic leg movement - left|PLM (Left)</EventConcept>
+<Start>19398.2</Start>
+<Duration>0.5</Duration>
+<SignalLocation>Lleg1</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19423</Start>
+<Duration>25.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19438</Start>
+<Duration>38</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19488.3</Start>
+<Duration>19.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19501</Start>
+<Duration>37</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19563</Start>
+<Duration>62</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19572.4</Start>
+<Duration>27.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19598.9</Start>
+<Duration>8.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19658.2</Start>
+<Duration>22.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19672.1</Start>
+<Duration>34.8</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19696.6</Start>
+<Duration>25.8</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19718.6</Start>
+<Duration>25.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19826.8</Start>
+<Duration>25.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19846</Start>
+<Duration>28</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>19958.5</Start>
+<Duration>24.2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>19982.6</Start>
+<Duration>26.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>19989.5</Start>
+<Duration>16.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20019</Start>
+<Duration>9</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>76</SpO2Nadir>
+<SpO2Baseline>91.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>20035</Start>
+<Duration>67</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>98.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>20404</Start>
+<Duration>5.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>20437.2</Start>
+<Duration>4.2</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>20733.3</Start>
+<Duration>5.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>21057.8</Start>
+<Duration>11.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23398.4</Start>
+<Duration>18</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23417</Start>
+<Duration>35</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23419.8</Start>
+<Duration>17.3</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23475.8</Start>
+<Duration>13.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23526</Start>
+<Duration>25</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23587.5</Start>
+<Duration>15.7</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23699.4</Start>
+<Duration>18.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23710.4</Start>
+<Duration>33.9</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23800.1</Start>
+<Duration>16.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23820.1</Start>
+<Duration>21.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23873.3</Start>
+<Duration>26.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23893</Start>
+<Duration>43</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>89</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23907.2</Start>
+<Duration>8.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23936.6</Start>
+<Duration>20.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>23944</Start>
+<Duration>36</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>23953.6</Start>
+<Duration>5</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>23997.4</Start>
+<Duration>17.5</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24012</Start>
+<Duration>33</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>90</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>24066.2</Start>
+<Duration>13</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24086.2</Start>
+<Duration>19.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24101.2</Start>
+<Duration>27.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24120</Start>
+<Duration>37</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24161.1</Start>
+<Duration>42.7</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24167.7</Start>
+<Duration>16.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24192.4</Start>
+<Duration>16.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24216.4</Start>
+<Duration>16.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>91</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24272.4</Start>
+<Duration>19.3</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>24294.1</Start>
+<Duration>16</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24301</Start>
+<Duration>16</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>87</SpO2Nadir>
+<SpO2Baseline>94.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24338</Start>
+<Duration>45</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24342.5</Start>
+<Duration>21.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24377.6</Start>
+<Duration>18.9</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24401.6</Start>
+<Duration>17.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>95.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>24487.3</Start>
+<Duration>8.8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24780.7</Start>
+<Duration>24.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24801.7</Start>
+<Duration>29.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>96.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24823.2</Start>
+<Duration>20.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24835.9</Start>
+<Duration>20.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Hypopnea|Hypopnea</EventConcept>
+<Start>24920.9</Start>
+<Duration>18.4</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>24943.2</Start>
+<Duration>27.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>93</SpO2Nadir>
+<SpO2Baseline>98.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Obstructive apnea|Obstructive Apnea</EventConcept>
+<Start>25075.3</Start>
+<Duration>12.1</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>25086.8</Start>
+<Duration>8</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 desaturation|SpO2 desaturation</EventConcept>
+<Start>25087</Start>
+<Duration>35</Duration>
+<SignalLocation>SAO2</SignalLocation>
+<SpO2Nadir>92</SpO2Nadir>
+<SpO2Baseline>97.0</SpO2Baseline>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>25138.2</Start>
+<Duration>18.6</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Arousals|Arousals</EventType>
+<EventConcept>Arousal|Arousal ()</EventConcept>
+<Start>25181.9</Start>
+<Duration>22.1</Duration>
+<SignalLocation>C4</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>25832.1</Start>
+<Duration>17.7</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>Periodic breathing|Periodic Breathing</EventConcept>
+<Start>25857.2</Start>
+<Duration>2</Duration>
+<SignalLocation>CannulaFlow</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Respiratory|Respiratory</EventType>
+<EventConcept>SpO2 artifact|SpO2 artifact</EventConcept>
+<Start>25871.5</Start>
+<Duration>106.1</Duration>
+<SignalLocation>SAO2</SignalLocation>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>0.0</Start>
+<Duration>780.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>780.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>810.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>870.0</Start>
+<Duration>240.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>1110.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>1140.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>1200.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>1230.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>1290.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>1350.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>1470.0</Start>
+<Duration>870.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>2340.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>2400.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>2580.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>2640.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>2670.0</Start>
+<Duration>150.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>2820.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>2850.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>2940.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>3060.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>3090.0</Start>
+<Duration>480.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>3570.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>3600.0</Start>
+<Duration>390.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>3990.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>4020.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>4080.0</Start>
+<Duration>870.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>4950.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>5010.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>5070.0</Start>
+<Duration>150.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>5220.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>5250.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>5280.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>5460.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>5490.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>5520.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>5580.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>5610.0</Start>
+<Duration>270.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>5880.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>6000.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>6030.0</Start>
+<Duration>570.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>6600.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>6660.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>6780.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>6900.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>6990.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>7020.0</Start>
+<Duration>390.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>REM sleep|5</EventConcept>
+<Start>7410.0</Start>
+<Duration>750.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>8160.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>8190.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>8220.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>8280.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>8310.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>8340.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>8370.0</Start>
+<Duration>240.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>8610.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>8640.0</Start>
+<Duration>330.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>8970.0</Start>
+<Duration>330.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>9300.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>9330.0</Start>
+<Duration>780.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>10110.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>REM sleep|5</EventConcept>
+<Start>10170.0</Start>
+<Duration>1110.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>11280.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>11310.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>11430.0</Start>
+<Duration>840.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>12270.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>12300.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>12480.0</Start>
+<Duration>630.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>13110.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>13200.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>13230.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>13290.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>13470.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>13500.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>13530.0</Start>
+<Duration>120.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>13650.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>13680.0</Start>
+<Duration>240.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>13920.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>13980.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>14010.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>14040.0</Start>
+<Duration>330.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>14370.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>14430.0</Start>
+<Duration>240.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>REM sleep|5</EventConcept>
+<Start>14670.0</Start>
+<Duration>990.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>15660.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>15750.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>15780.0</Start>
+<Duration>1770.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>17550.0</Start>
+<Duration>360.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>17910.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>17970.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>18030.0</Start>
+<Duration>150.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>18180.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>18210.0</Start>
+<Duration>390.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>18600.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>18660.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>18720.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>18780.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>18960.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>19020.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>19050.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>19140.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>19230.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>19260.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>19290.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>19320.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>19380.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>19410.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>REM sleep|5</EventConcept>
+<Start>19440.0</Start>
+<Duration>540.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>19980.0</Start>
+<Duration>270.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>20250.0</Start>
+<Duration>210.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>20460.0</Start>
+<Duration>270.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>20730.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>20760.0</Start>
+<Duration>300.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>21060.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>21090.0</Start>
+<Duration>870.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>21960.0</Start>
+<Duration>630.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>22590.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>22770.0</Start>
+<Duration>240.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23010.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23040.0</Start>
+<Duration>180.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23220.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 3 sleep|3</EventConcept>
+<Start>23250.0</Start>
+<Duration>150.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>23400.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>23430.0</Start>
+<Duration>30.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>23460.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>23520.0</Start>
+<Duration>90.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 1 sleep|1</EventConcept>
+<Start>23610.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Stage 2 sleep|2</EventConcept>
+<Start>23670.0</Start>
+<Duration>60.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>REM sleep|5</EventConcept>
+<Start>23730.0</Start>
+<Duration>1410.0</Duration>
+</ScoredEvent>
+<ScoredEvent>
+<EventType>Stages|Stages</EventType>
+<EventConcept>Wake|0</EventConcept>
+<Start>25140.0</Start>
+<Duration>720.0</Duration>
+</ScoredEvent>
+</ScoredEvents>
+</PSGAnnotation>

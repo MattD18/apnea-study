@@ -10,12 +10,12 @@ import pyedflib
 import xml.etree.ElementTree as ET
 import tensorflow as tf
 import numpy as np
+import pandas as pd
 
 
 def create_tfrecords_from_raw_data(raw_data_dir='data/raw_data',
                                    tf_rec_data_dir='data/processed_data',
-                                   pulse_sample_rate=16,
-                                   pulse_signal_number=26,
+                                   expected_sample_rate=16,
                                    annotation_event_index=2
                                    ):
     """extracts pulse and apnea annotation data from NSRR edf and annotaion files
@@ -24,27 +24,39 @@ def create_tfrecords_from_raw_data(raw_data_dir='data/raw_data',
     Parameters:
     raw_data_dir (str) : file path to directory with nsrr files
     tf_rec_data_dir (str) : file path to directory where tfrecords will be written to
-    pulse_sample_rate (int) : sample rate of pulse data in Hz
-    pulse_signal_number (int) : index of pulse data in edf file
+    expected_sample_rate (int) : expected sample rate of pulse data in Hz
     annotation_event_index (int) : index of scored events in annotation file
 
     """
     edf_dir = os.path.join(raw_data_dir,'edfs')
     annotation_dir = os.path.join(raw_data_dir,'annotations-events-nsrr/')
+    annotation_event_index = 2
     record_names = get_record_names(edf_dir)
     for record in record_names:
         edf_file_path = os.path.join(edf_dir,record+'.edf')
         #extract pulse data from edf file
         edf_data = pyedflib.EdfReader(edf_file_path)
+        try:
+            pulse_signal_number = edf_data.getSignalLabels().index('Pulse')
+        except ValueError:
+            print("{} does not track pulse, skipping".format(record))
+            continue
+        pulse_sample_rate = edf_data.getSampleFrequencies()[pulse_signal_number]
+        if pulse_sample_rate != expected_sample_rate:
+            print("{} has sample rate of {}, skipping".format(record,pulse_sample_rate))
+            continue
         num_pulse_data_points = edf_data.readSignal(pulse_signal_number).shape[0]
         num_seconds = int(num_pulse_data_points / pulse_sample_rate)
         pulse = edf_data.readSignal(pulse_signal_number)
-        #extract annotation data from edf file
+    #     extract annotation data from edf file
         annotation = np.zeros(num_seconds)
         annotation_file_path = os.path.join(annotation_dir,record+'-nsrr.xml')
         annotation_data = ET.parse(annotation_file_path)
         annotation_data_root = annotation_data.getroot()
         scored_events = annotation_data_root[annotation_event_index]
+        if scored_events.tag != 'ScoredEvents':
+            print("{} has xml in wrong format, skipping".format(record))
+            continue
         #store apnea annotations in array that is num_seconds long,
         #each element of array is 1 if apnea was detected during that second
         #of sleep, 0 otherwise
@@ -69,6 +81,7 @@ def create_tfrecords_from_raw_data(raw_data_dir='data/raw_data',
         #close edf file
         edf_data._close()
         del edf_data
+
 
 def load_tfrecords(tf_rec_data_dir='data/processed_data'):
     """loads pulse and apnea data in tfrecord format into a tensorflow Dataset
@@ -327,3 +340,38 @@ def save_session(session_name,
     save_path = os.path.join(res_path,session_name + '.pickle')
     with open(save_path, 'wb') as handle:
         pickle.dump(session_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+def get_resuts_df(results_path):
+    """Summarizes session result pickles in a dataframe
+
+    Parameters:
+    ------------
+
+    results_path (str) : path to session result pickles
+
+    Returns:
+    ---------
+    results_df (pd.DataFrame) : results in dataframe format
+
+
+    """
+    results_exp = re.compile(r'.*\.pickle$')
+    results_list = os.listdir(results_path)
+    results_list = list(filter(results_exp.search,results_list))
+    results_df = []
+    for result_file in results_list:
+        results_full_path = os.path.join(results_path,result_file)
+        with open(results_full_path,'rb') as file:
+            session_results = pickle.load(file)
+            session_series = pd.Series()
+            session_series['session_name'] = result_file
+            for key in session_results:
+                if isinstance(session_results[key],dict):
+                    for subkey in session_results[key]:
+                        session_series[key+'_'+subkey] = session_results[key][subkey]
+                else:
+                    session_series[key] = session_results[key]
+            results_df.append(session_series)
+    results_df = pd.DataFrame(results_df)
+    return results_df
