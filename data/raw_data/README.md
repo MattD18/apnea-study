@@ -1,1 +1,1 @@
-directory to raw data and processed data
+directory to raw data
