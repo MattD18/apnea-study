@@ -96,7 +96,7 @@ class EDFLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         edf_keys = [bucket_key for bucket_key in bucket_keys if self.edf_file_regex.match(bucket_key)]
-        for edf_key in edf_keys[:2]:
+        for edf_key in edf_keys[:20]:
             edf_filename = edf_key.split('/')[-1]
             full_path_filename = os.path.join(self.edf_dir, edf_filename)
             with open(full_path_filename, 'wb') as f:
@@ -163,7 +163,7 @@ class AnnotationLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
-        for annotation_key in annotation_keys[:2]:
+        for annotation_key in annotation_keys[:20]:
             annotation_filename = annotation_key.split('/')[-1]
             full_path_filename = os.path.join(self.annotation_dir, annotation_filename)
             with open(full_path_filename, 'wb') as f:
