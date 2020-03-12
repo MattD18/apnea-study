@@ -6,17 +6,19 @@ import re
 
 import numpy as np
 import tensorflow as tf
+import boto3
 import pyedflib
 import xml.etree.ElementTree as ET
 
 class PreprocessRecords():
     '''
     '''
-    def __init__(self, tf_record_dir = 'data/preprocessed_data/'):
+    def __init__(self, tf_record_dir = 'data/preprocessed_data/', s3_bucket_name=None):
+        self.s3_bucket_name = s3_bucket_name
         self.tf_record_dir = tf_record_dir
         self.tf_record_regex = re.compile("(?P<record_name>.*)\.tfrecord")
 
-    def write_to_tf_records(self, X, y):
+    def write_to_tf_records_to_local(self, X, y):
         '''
         '''
         for record in X.keys():
@@ -32,7 +34,7 @@ class PreprocessRecords():
                 example = example_proto.SerializeToString()
                 writer.write(example)
 
-    def read_from_tf_records(self):
+    def read_from_tf_records_from_local(self):
         '''
         '''
         filenames = [filename for filename in os.listdir(self.tf_record_dir) if self.tf_record_regex.match(filename)]
@@ -67,14 +69,15 @@ class EDFLoader():
     Methods:
     --------------
     '''
-    def __init__(self, edf_dir='data/raw_data/edfs'):
+    def __init__(self, edf_dir='data/raw_data/edfs', s3_bucket_name=None):
         self.edf_dir = edf_dir
+        self.s3_bucket_name = s3_bucket_name
         self.edf_file_regex = re.compile("(?P<record_name>.*)\.edf")
         #Note which ecg channels should be used?? Question for doctor
         self.ecg_channel_regex = re.compile("(?P<channel_name>ECG\d|EKG\d)")
 
 
-    def load(self):
+    def load_from_local(self):
         '''
         '''
         data = {}
@@ -82,6 +85,25 @@ class EDFLoader():
         for edf_filename in edf_filenames:
             ecg_signal = self.get_ecg_signal_from_file(edf_filename)
             data.update(ecg_signal)
+        return data
+
+    def load_from_s3(self):
+        '''
+        '''
+        data = {}
+        s3 = boto3.resource('s3')
+        bucket = s3.Bucket(self.s3_bucket_name)
+        bucket_objects = bucket.objects.all()
+        bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
+        edf_keys = [bucket_key for bucket_key in bucket_keys if self.edf_file_regex.match(bucket_key)]
+        for edf_key in edf_keys[:2]:
+            edf_filename = edf_key.split('/')[-1]
+            full_path_filename = os.path.join(self.edf_dir, edf_filename)
+            with open(full_path_filename, 'wb') as f:
+                bucket.download_fileobj(edf_key, f)
+                ecg_signal = self.get_ecg_signal_from_file(edf_filename)
+                data.update(ecg_signal)        
+                os.remove(full_path_filename)
         return data
 
     def get_ecg_signal_from_file(self, edf_filename):   
@@ -97,11 +119,12 @@ class EDFLoader():
         ecg_freq = f.getSampleFrequency(ecg_channel)
         f._close()
  
-
         num_seconds = ecg_signal.shape[0] // ecg_freq
         ecg_signal = ecg_signal.reshape(num_seconds, ecg_freq)
         record_name = self.edf_file_regex.match(edf_filename).groupdict()['record_name']
         return {record_name : ecg_signal}
+
+
 
 
 class AnnotationLoader():
@@ -114,12 +137,13 @@ class AnnotationLoader():
         location of edf directory
 
     '''
-    def __init__(self, annotation_dir='data/raw_data/annotations-events-nsrr/'):
+    def __init__(self, annotation_dir='data/raw_data/annotations-events-nsrr/', s3_bucket_name=None):
         self.annotation_dir = annotation_dir
+        self.s3_bucket_name = s3_bucket_name
         self.annotation_file_regex = re.compile("(?P<record_name>.*)-nsrr\.xml")
         self.apnea_event_regex = re.compile('.*apnea.*')
 
-    def load(self):
+    def load_from_local(self):
         '''
         '''
         data = {}
@@ -128,6 +152,25 @@ class AnnotationLoader():
         for annotation_filename in annotation_filenames:
             annotation = self.get_annotation_from_file(annotation_filename)
             data.update(annotation)
+        return data
+
+    def load_from_s3(self):
+        '''
+        '''
+        data = {}
+        s3 = boto3.resource('s3')
+        bucket = s3.Bucket(self.s3_bucket_name)
+        bucket_objects = bucket.objects.all()
+        bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
+        annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
+        for annotation_key in annotation_keys[:2]:
+            annotation_filename = annotation_key.split('/')[-1]
+            full_path_filename = os.path.join(self.annotation_dir, annotation_filename)
+            with open(full_path_filename, 'wb') as f:
+                bucket.download_fileobj(annotation_key, f)
+                ecg_signal = self.get_annotation_from_file(annotation_filename)
+                data.update(ecg_signal)        
+                os.remove(full_path_filename)
         return data
 
 
