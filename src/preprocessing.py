@@ -22,17 +22,21 @@ class PreprocessRecords():
         '''
         '''
         for record in X.keys():
-            assert X[record].shape[0] == y[record].shape[0]
-            serialized_features = tf.io.serialize_tensor(X[record])
-            serialized_labels = tf.io.serialize_tensor(y[record])
-            serialized_data = {
-                'features':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_features.numpy()])),
-                'labels':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_labels.numpy()]))
-            }
-            example_proto = tf.train.Example(features=tf.train.Features(feature=serialized_data))
-            with tf.io.TFRecordWriter(os.path.join(self.tf_record_dir, f"{record}.tfrecord")) as writer:
-                example = example_proto.SerializeToString()
-                writer.write(example)
+            print(f"writing record for {record}")
+            try:
+                assert X[record].shape[0] == y[record].shape[0]
+                serialized_features = tf.io.serialize_tensor(X[record])
+                serialized_labels = tf.io.serialize_tensor(y[record])
+                serialized_data = {
+                    'features':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_features.numpy()])),
+                    'labels':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_labels.numpy()]))
+                }
+                example_proto = tf.train.Example(features=tf.train.Features(feature=serialized_data))
+                with tf.io.TFRecordWriter(os.path.join(self.tf_record_dir, f"{record}.tfrecord")) as writer:
+                    example = example_proto.SerializeToString()
+                    writer.write(example)
+            except (AttributeError, AssertionError):
+                print(f"annotation, edf record mismatch for {record}")
 
     def write_to_tf_records_to_s3(self, X, y):
         '''
@@ -41,20 +45,23 @@ class PreprocessRecords():
         bucket = s3.Bucket(self.s3_bucket_name)
         for record in X.keys():
             print(f"writing record for {record}")
-            assert X[record].shape[0] == y[record].shape[0]
-            serialized_features = tf.io.serialize_tensor(X[record])
-            serialized_labels = tf.io.serialize_tensor(y[record])
-            serialized_data = {
-                'features':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_features.numpy()])),
-                'labels':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_labels.numpy()]))
-            }
-            example_proto = tf.train.Example(features=tf.train.Features(feature=serialized_data))
-            with tf.io.TFRecordWriter(os.path.join(self.tf_record_dir, f"{record}.tfrecord")) as writer:
-                example = example_proto.SerializeToString()
-                writer.write(example)
-            with open(os.path.join(self.tf_record_dir, f"{record}.tfrecord"), 'rb') as f:
-                bucket.put_object(key=f"preprocessed_data/{record}.tfrecord",Body=f)
-            os.remove(os.path.join(self.tf_record_dir, f"{record}.tfrecord"))
+            try:
+                assert X[record].shape[0] == y[record].shape[0]
+                serialized_features = tf.io.serialize_tensor(X[record])
+                serialized_labels = tf.io.serialize_tensor(y[record])
+                serialized_data = {
+                    'features':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_features.numpy()])),
+                    'labels':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_labels.numpy()]))
+                }
+                example_proto = tf.train.Example(features=tf.train.Features(feature=serialized_data))
+                with tf.io.TFRecordWriter(os.path.join(self.tf_record_dir, f"{record}.tfrecord")) as writer:
+                    example = example_proto.SerializeToString()
+                    writer.write(example)
+                with open(os.path.join(self.tf_record_dir, f"{record}.tfrecord"), 'rb') as f:
+                    bucket.put_object(Key=f"preprocessed_data/{record}.tfrecord",Body=f)
+                os.remove(os.path.join(self.tf_record_dir, f"{record}.tfrecord"))
+            except (AttributeError, AssertionError):
+                print(f"annotation, edf record mismatch for {record}")
 
     def read_from_tf_records_from_local(self):
         '''
@@ -118,7 +125,7 @@ class EDFLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         edf_keys = [bucket_key for bucket_key in bucket_keys if self.edf_file_regex.match(bucket_key)]
-        for edf_key in edf_keys[33:35]:
+        for edf_key in edf_keys:
             print(f"loading edf for {edf_key}")
             edf_filename = edf_key.split('/')[-1]
             full_path_filename = os.path.join(self.edf_dir, edf_filename)
@@ -132,19 +139,24 @@ class EDFLoader():
     def get_ecg_signal_from_file(self, edf_filename):   
         '''
         '''
-        full_edf_file_path = os.path.join(self.edf_dir, edf_filename)
-        f = pyedflib.EdfReader(full_edf_file_path)
-    
-        channel_list = f.getSignalLabels()
-        ecg_channel_name = [channel for channel in channel_list if self.ecg_channel_regex.match(channel)][0]
-        ecg_channel = channel_list.index(ecg_channel_name)
-        ecg_signal = f.readSignal(ecg_channel )
-        ecg_freq = f.getSampleFrequency(ecg_channel)
-        f._close()
- 
-        num_seconds = ecg_signal.shape[0] // ecg_freq
-        ecg_signal = ecg_signal.reshape(num_seconds, ecg_freq)
         record_name = self.edf_file_regex.match(edf_filename).groupdict()['record_name']
+        ecg_signal = None
+        try:
+            full_edf_file_path = os.path.join(self.edf_dir, edf_filename)
+            f = pyedflib.EdfReader(full_edf_file_path)
+        
+            channel_list = f.getSignalLabels()
+            ecg_channel_name = [channel for channel in channel_list if self.ecg_channel_regex.match(channel)][0]
+            ecg_channel = channel_list.index(ecg_channel_name)
+            ecg_signal = f.readSignal(ecg_channel )
+            ecg_freq = f.getSampleFrequency(ecg_channel)
+            f._close()
+    
+            num_seconds = ecg_signal.shape[0] // ecg_freq
+            ecg_signal = ecg_signal.reshape(num_seconds, ecg_freq)
+        except OSError:
+            print(f"Couldn't read {edf_filename}")
+        
         return {record_name : ecg_signal}
 
 
@@ -186,7 +198,7 @@ class AnnotationLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
-        for annotation_key in annotation_keys[33:55]:
+        for annotation_key in annotation_keys:
             print(f"loading annotation for {annotation_key}")
             annotation_filename = annotation_key.split('/')[-1]
             full_path_filename = os.path.join(self.annotation_dir, annotation_filename)

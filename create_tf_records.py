@@ -5,7 +5,7 @@ from src.preprocessing import EDFLoader, AnnotationLoader, PreprocessRecords
 if __name__ == '__main__':
     data_dir = 'data/'
     edf_dir = 'raw_data/edfs'
-    annotation_dir = 'raw_data/annotation-events-nsrr'
+    annotation_dir = 'raw_data/annotations-events-nsrr'
     s3_bucket = 'apnea-study'
     tf_record_dir = 'processed_data/'
     edf_loader = EDFLoader(os.path.join(data_dir, edf_dir),s3_bucket)
