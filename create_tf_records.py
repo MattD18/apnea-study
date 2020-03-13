@@ -7,7 +7,7 @@ if __name__ == '__main__':
     edf_dir = 'raw_data/edfs'
     annotation_dir = 'raw_data/annotation-events-nsrr'
     s3_bucket = 'apnea-study'
-    tf_record_dir = 'preprocessed_data/'
+    tf_record_dir = 'processed_data/'
     edf_loader = EDFLoader(os.path.join(data_dir, edf_dir),s3_bucket)
     annotation_loader = AnnotationLoader(os.path.join(data_dir, annotation_dir),s3_bucket)
     preprocessor = PreprocessRecords(os.path.join(data_dir, tf_record_dir), s3_bucket)
