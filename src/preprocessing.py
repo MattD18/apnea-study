@@ -3,6 +3,7 @@ module to perform ETL on apnea data
 '''
 import os 
 import re
+from xml.etree.ElementTree import ParseError
 
 import numpy as np
 import tensorflow as tf
@@ -214,17 +215,22 @@ class AnnotationLoader():
     def get_annotation_from_file(self, annotation_filename):
         '''
         '''
-        full_annotation_file_path = os.path.join(self.annotation_dir, annotation_filename)
-        root = ET.parse(full_annotation_file_path).getroot()
-        scored_events = root.find('ScoredEvents').findall('ScoredEvent')
-        apnea_events = [event for event in scored_events \
-                        if self.apnea_event_regex.match(event.find('EventConcept').text)]
-        apnea_event_indices = [self.get_event_indices(x) for x in apnea_events]
-        start_event = [event for event in scored_events \
-                       if event.find('EventConcept').text =='Recording Start Time'][0]
-        num_seconds = int(float(start_event.find('Duration').text))
-        annotation = self.get_annotation_vector(apnea_event_indices, num_seconds)
         record_name = self.annotation_file_regex.match(annotation_filename).groupdict()['record_name']
+        annotation = None
+        try:
+            full_annotation_file_path = os.path.join(self.annotation_dir, annotation_filename)
+            root = ET.parse(full_annotation_file_path).getroot()
+            scored_events = root.find('ScoredEvents').findall('ScoredEvent')
+            apnea_events = [event for event in scored_events \
+                            if self.apnea_event_regex.match(event.find('EventConcept').text)]
+            apnea_event_indices = [self.get_event_indices(x) for x in apnea_events]
+            start_event = [event for event in scored_events \
+                        if event.find('EventConcept').text =='Recording Start Time'][0]
+            num_seconds = int(float(start_event.find('Duration').text))
+            annotation = self.get_annotation_vector(apnea_event_indices, num_seconds)
+        except ParseError:
+             print(f"Couldn't read {annotation_filename}")
+
         return {record_name : annotation}
 
     def get_event_indices(self, apnea_event):
