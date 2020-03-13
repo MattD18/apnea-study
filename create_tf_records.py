@@ -15,4 +15,4 @@ if __name__ == '__main__':
     X = edf_loader.load_from_s3()
     y = annotation_loader.load_from_s3()
 
-    preprocessor.write_to_tf_records_to_local(X,y)
+    preprocessor.write_to_tf_records_to_s3(X,y)

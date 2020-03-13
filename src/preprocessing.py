@@ -34,6 +34,28 @@ class PreprocessRecords():
                 example = example_proto.SerializeToString()
                 writer.write(example)
 
+    def write_to_tf_records_to_s3(self, X, y):
+        '''
+        '''
+        s3 = boto3.resource('s3')
+        bucket = s3.Bucket(self.s3_bucket_name)
+        for record in X.keys():
+            print(f"writing record for {record}")
+            assert X[record].shape[0] == y[record].shape[0]
+            serialized_features = tf.io.serialize_tensor(X[record])
+            serialized_labels = tf.io.serialize_tensor(y[record])
+            serialized_data = {
+                'features':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_features.numpy()])),
+                'labels':tf.train.Feature(bytes_list=tf.train.BytesList(value=[serialized_labels.numpy()]))
+            }
+            example_proto = tf.train.Example(features=tf.train.Features(feature=serialized_data))
+            with tf.io.TFRecordWriter(os.path.join(self.tf_record_dir, f"{record}.tfrecord")) as writer:
+                example = example_proto.SerializeToString()
+                writer.write(example)
+            with open(os.path.join(self.tf_record_dir, f"{record}.tfrecord"), 'rb') as f:
+                bucket.put_object(key=f"preprocessed_data/{record}.tfrecord",Body=f)
+            os.remove(os.path.join(self.tf_record_dir, f"{record}.tfrecord"))
+
     def read_from_tf_records_from_local(self):
         '''
         '''
@@ -96,7 +118,8 @@ class EDFLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         edf_keys = [bucket_key for bucket_key in bucket_keys if self.edf_file_regex.match(bucket_key)]
-        for edf_key in edf_keys[22:24]:
+        for edf_key in edf_keys[33:35]:
+            print(f"loading edf for {edf_key}")
             edf_filename = edf_key.split('/')[-1]
             full_path_filename = os.path.join(self.edf_dir, edf_filename)
             with open(full_path_filename, 'wb') as f:
@@ -163,7 +186,8 @@ class AnnotationLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
-        for annotation_key in annotation_keys[22:24]:
+        for annotation_key in annotation_keys[33:55]:
+            print(f"loading annotation for {annotation_key}")
             annotation_filename = annotation_key.split('/')[-1]
             full_path_filename = os.path.join(self.annotation_dir, annotation_filename)
             with open(full_path_filename, 'wb') as f:
