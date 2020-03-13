@@ -96,14 +96,14 @@ class EDFLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         edf_keys = [bucket_key for bucket_key in bucket_keys if self.edf_file_regex.match(bucket_key)]
-        for edf_key in edf_keys[:20]:
+        for edf_key in edf_keys[22:24]:
             edf_filename = edf_key.split('/')[-1]
             full_path_filename = os.path.join(self.edf_dir, edf_filename)
             with open(full_path_filename, 'wb') as f:
                 bucket.download_fileobj(edf_key, f)
                 ecg_signal = self.get_ecg_signal_from_file(edf_filename)
                 data.update(ecg_signal)        
-                os.remove(full_path_filename)
+            os.remove(full_path_filename)
         return data
 
     def get_ecg_signal_from_file(self, edf_filename):   
@@ -163,14 +163,14 @@ class AnnotationLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
-        for annotation_key in annotation_keys[:20]:
+        for annotation_key in annotation_keys[22:24]:
             annotation_filename = annotation_key.split('/')[-1]
             full_path_filename = os.path.join(self.annotation_dir, annotation_filename)
             with open(full_path_filename, 'wb') as f:
                 bucket.download_fileobj(annotation_key, f)
                 ecg_signal = self.get_annotation_from_file(annotation_filename)
                 data.update(ecg_signal)        
-                os.remove(full_path_filename)
+            os.remove(full_path_filename)
         return data
 
 
