@@ -1,2 +1,0 @@
-pyEDFlib==0.1.14
-tensorflow-gpu==2.0.0-rc0

@@ -8,4 +8,5 @@ __pycache__/
 secrets.txt
 *.pyc
 *.pem
+*.xml
 
