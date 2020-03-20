@@ -1,0 +1,31 @@
+# Data
+data:
+  train_dir: data/processed_data
+# Preprocessing Pipeline
+pipeline:
+  name: Conv1DDataPipeline
+  params:
+    num_seconds: 10
+# Model Architecture
+model:
+  name: BaseConv1D
+  params:
+# Training Loop
+training:
+  training_loop:
+    params:
+      num_epochs: 10
+      batch_size: 8
+      validation_split: .2
+  optimizer:
+    name: Adam
+    params:
+      learning_rate: .00001
+# Float Params
+float_params:
+  -learning_rate
+  -validation_split
+int_params:
+  -batch_size
+  -num_epochs
+  -num_seconds

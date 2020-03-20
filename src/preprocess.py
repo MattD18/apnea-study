@@ -1,7 +1,7 @@
 '''
 '''
 import tensorflow as tf
-from utils import get_dataset_length
+from src.utils import get_dataset_length
 
 class ApneaDataPipeline():
     '''

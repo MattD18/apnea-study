@@ -37,7 +37,9 @@ Train Model on EC2
 2) Install and Set-Up AWS CLI and Git
 3) git clone https://github.com/MattD18/apnea-study
 4) cd apnea-study
-5) docker image build -t apnea .
-6) <TODO> docker run -it --rm -p 8888:8888 apnea python run.py --config file
+5) docker image build --no-cache -t apnea .
+6) <TODO> docker run -it --rm -p 8888:8888 -v /Users/matthewdalton/Documents/Data\ Science/Sleep\ Apnea\ Study/apnea-study/:/usr/src/app/apnea-study -w /usr/src/app/apnea-study apnea python run_experiment.py configs/test_config.yaml
 7) Terminate EC2 instance
 
+View on Tensorboard Locally with:
+1) tensorboard --logdir logs/gradient_tape/dev_test/
