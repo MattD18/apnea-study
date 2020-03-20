@@ -11,7 +11,7 @@ import boto3
 import pyedflib
 import xml.etree.ElementTree as ET
 
-class PreprocessRecords():
+class RecordETL():
     '''
     '''
     def __init__(self, tf_record_dir = 'data/preprocessed_data/', s3_bucket_name=None):
@@ -84,7 +84,6 @@ class PreprocessRecords():
         labels =  tf.io.parse_tensor(example['labels'], out_type = tf.float64)
 
         return features, labels
-
 
 class EDFLoader():
     '''
@@ -159,9 +158,6 @@ class EDFLoader():
             print(f"Couldn't read {edf_filename}")
         
         return {record_name : ecg_signal}
-
-
-
 
 class AnnotationLoader():
     '''
