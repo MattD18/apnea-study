@@ -120,7 +120,7 @@ class EDFLoader():
             data.update(ecg_signal)
         return data
 
-    def load_from_s3(self):
+    def load_from_s3(self, subdir=None):
         '''
         '''
         data = {}
@@ -129,6 +129,8 @@ class EDFLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         edf_keys = [bucket_key for bucket_key in bucket_keys if self.edf_file_regex.match(bucket_key)]
+        if subdir:
+            edf_keys = list(filter(lambda x : x.split('/')[0] == subdir, edf_keys))
         for edf_key in edf_keys:
             print(f"loading edf for {edf_key}")
             edf_filename = edf_key.split('/')[-1]
@@ -150,7 +152,7 @@ class EDFLoader():
             f = pyedflib.EdfReader(full_edf_file_path)
         
             channel_list = f.getSignalLabels()
-            ecg_channel_name = [channel for channel in channel_list if self.ecg_channel_regex.match(channel)][0]
+            ecg_channel_name = self.get_ecg_channel_name(edf_filename, channel_list)
             ecg_channel = channel_list.index(ecg_channel_name)
             ecg_signal = f.readSignal(ecg_channel )
             ecg_freq = f.getSampleFrequency(ecg_channel)
@@ -162,6 +164,15 @@ class EDFLoader():
             print(f"Couldn't read {edf_filename}")
         
         return {record_name : ecg_signal}
+
+    def get_ecg_channel_name(self, edf_filename, channel_list):
+        '''
+        '''
+        if 'abc' in edf_filename:
+            ecg_channel_name = 'ECG2'
+        else:
+            ecg_channel_name = [channel for channel in channel_list if self.ecg_channel_regex.match(channel)][0]
+        return ecg_channel_name
 
 class AnnotationLoader():
     '''
@@ -190,7 +201,7 @@ class AnnotationLoader():
             data.update(annotation)
         return data
 
-    def load_from_s3(self):
+    def load_from_s3(self, subdir=None):
         '''
         '''
         data = {}
@@ -199,6 +210,8 @@ class AnnotationLoader():
         bucket_objects = bucket.objects.all()
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
+        if subdir:
+            annotation_keys = list(filter(lambda x : x.split('/')[0] == annotation_keys, edf_keys))
         for annotation_key in annotation_keys:
             print(f"loading annotation for {annotation_key}")
             annotation_filename = annotation_key.split('/')[-1]
