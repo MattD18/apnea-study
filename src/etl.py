@@ -211,7 +211,7 @@ class AnnotationLoader():
         bucket_keys = [bucket_object.key for bucket_object in bucket_objects]
         annotation_keys = [bucket_key for bucket_key in bucket_keys if self.annotation_file_regex.match(bucket_key)]
         if subdir:
-            annotation_keys = list(filter(lambda x : x.split('/')[0] == annotation_keys, edf_keys))
+            annotation_keys = list(filter(lambda x : x.split('/')[0] == subdir, annotation_keys))
         for annotation_key in annotation_keys:
             print(f"loading annotation for {annotation_key}")
             annotation_filename = annotation_key.split('/')[-1]
