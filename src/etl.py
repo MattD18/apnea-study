@@ -64,11 +64,15 @@ class RecordETL():
             except (AttributeError, AssertionError):
                 print(f"annotation, edf record mismatch for {record}")
 
-    def read_from_tf_records_from_local(self):
+    def read_from_tf_records_from_local(self, local_record_dir=None):
         '''
         '''
-        filenames = [filename for filename in os.listdir(self.tf_record_dir) if self.tf_record_regex.match(filename)]
-        filenames = [os.path.join(self.tf_record_dir,filename) for filename in filenames]
+        if local_record_dir:
+            tf_record_dir = local_record_dir
+        else:
+            tf_record_dir = self.tf_record_dir
+        filenames = [filename for filename in os.listdir(tf_record_dir) if self.tf_record_regex.match(filename)]
+        filenames = [os.path.join(tf_record_dir,filename) for filename in filenames]
         raw_dataset = tf.data.TFRecordDataset(filenames)
         parsed_record_dataset = raw_dataset.map(self.read_tfrecord)
         return parsed_record_dataset
