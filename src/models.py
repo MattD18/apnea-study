@@ -102,20 +102,20 @@ class RegConv1D(Model):
 
     TODO, allow model to take parameters as inputs
     '''
-    def __init__(self):
+    def __init__(self, all_layer_reg=0.01):
         super(RegConv1D, self).__init__()
         self.conv_one = tf.keras.layers.Conv1D(filters=16, kernel_size=64, strides=16,
-                                               kernel_regularizer=tf.keras.regularizers.l2(l=0.01))
+                                               kernel_regularizer=tf.keras.regularizers.l2(l=all_layer_reg))
         self.avg_pool_one = tf.keras.layers.AveragePooling1D(pool_size=2)
         self.relu_one = tf.keras.layers.ReLU()
         
         self.conv_two = tf.keras.layers.Conv1D(filters=4, kernel_size=32, strides=16,
-                                               kernel_regularizer=tf.keras.regularizers.l2(l=0.01))
+                                               kernel_regularizer=tf.keras.regularizers.l2(l=all_layer_reg))
         self.avg_pool_two = tf.keras.layers.AveragePooling1D(pool_size=2)
         self.relu_two = tf.keras.layers.ReLU()
         
         self.flatten_layer = tf.keras.layers.Flatten()
-        self.output_layer = tf.keras.layers.Dense(1, activation='sigmoid', kernel_regularizer=tf.keras.regularizers.l2(l=0.01))
+        self.output_layer = tf.keras.layers.Dense(1, activation='sigmoid', kernel_regularizer=tf.keras.regularizers.l2(l=all_layer_reg))
 
     def call(self, x):
         out = self.conv_one(x)
