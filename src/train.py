@@ -11,7 +11,8 @@ class Experiment():
     '''
     def __init__(self, train_data, pipeline, model, optimizer, 
                  training_params, 
-                 val_data=None):
+                 val_data=None,
+                 log_dir='dev_test'):
         '''
         '''
         self.raw_train_data = train_data
@@ -26,10 +27,11 @@ class Experiment():
         self.training_params= training_params
         self.training_history = None
         self.timestamp = None
+        self.log_dir = log_dir
 
     def train_model(self):
         self.timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%s")
-        tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=f'logs/gradient_tape/dev_test/{self.timestamp}', 
+        tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=f'logs/gradient_tape/{self.log_dir}/{self.timestamp}', 
                                                             histogram_freq=0,
                                                             write_graph=False, 
                                                             write_images=False,

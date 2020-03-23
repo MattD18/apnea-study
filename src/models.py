@@ -94,3 +94,36 @@ class BaseConv1D(Model):
         out = self.flatten_layer(out)
         out = self.output_layer(out)
         return out
+
+
+
+class RegConv1D(Model):
+    '''
+
+    TODO, allow model to take parameters as inputs
+    '''
+    def __init__(self):
+        super(RegConv1D, self).__init__()
+        self.conv_one = tf.keras.layers.Conv1D(filters=16, kernel_size=64, strides=16,
+                                               kernel_regularizer=tf.keras.regularizers.l2(l=0.01))
+        self.avg_pool_one = tf.keras.layers.AveragePooling1D(pool_size=2)
+        self.relu_one = tf.keras.layers.ReLU()
+        
+        self.conv_two = tf.keras.layers.Conv1D(filters=4, kernel_size=32, strides=16,
+                                               kernel_regularizer=tf.keras.regularizers.l2(l=0.01))
+        self.avg_pool_two = tf.keras.layers.AveragePooling1D(pool_size=2)
+        self.relu_two = tf.keras.layers.ReLU()
+        
+        self.flatten_layer = tf.keras.layers.Flatten()
+        self.output_layer = tf.keras.layers.Dense(1, activation='sigmoid', kernel_regularizer=tf.keras.regularizers.l2(l=0.01))
+
+    def call(self, x):
+        out = self.conv_one(x)
+        out = self.avg_pool_one(out)
+        out = self.relu_one(out)
+        out = self.conv_two(x)
+        out = self.avg_pool_two(out)
+        out = self.relu_two(out)
+        out = self.flatten_layer(out)
+        out = self.output_layer(out)
+        return out

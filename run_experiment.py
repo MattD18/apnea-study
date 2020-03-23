@@ -30,7 +30,7 @@ parser.add_argument('--model_save_dir', type=str, help='path to dir to save mode
 PIPELINE_DICT = {'Conv1DDataPipeline':Conv1DDataPipeline}
 
 #model must be referenced here to be used in config file
-MODEL_DICT = {'BaseConv1D':BaseConv1D}
+MODEL_DICT = {'BaseConv1D':BaseConv1D, 'RegConv1D':RegConv1D}
 
 #optimizer must be referenced here to be used in config file
 OPTIMIZER_DICT = {'Adam':Adam}
