@@ -166,8 +166,10 @@ class EDFLoader():
                 ecg_signal = ecg_signal.reshape(num_seconds, sample_freq)
             else:
                 ecg_signal = ecg_signal.reshape(num_seconds, ecg_freq)
-        except OSError, ValueError:
+        except OSError:
             print(f"Couldn't read {edf_filename}")
+        except ValueError:
+            print(f"Couldn't find signal {ecg_channel_name}")
         
         return {record_name : ecg_signal}
 
