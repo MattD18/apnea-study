@@ -175,6 +175,8 @@ class EDFLoader():
         '''
         if 'abc' in edf_filename:
             ecg_channel_name = 'ECG2'
+        elif 'homepap' in edf_filename:
+            ecg_channel_name = 'ECG2'
         else:
             ecg_channel_name = [channel for channel in channel_list if self.ecg_channel_regex.match(channel)][0]
         return ecg_channel_name
