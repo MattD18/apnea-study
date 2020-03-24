@@ -108,7 +108,7 @@ class EDFLoader():
         self.s3_bucket_name = s3_bucket_name
         self.edf_file_regex = re.compile("(?P<record_name>.*)\.edf")
         #Note which ecg channels should be used?? Question for doctor
-        self.ecg_channel_regex = re.compile("(?P<channel_name>ECG\d|EKG\d)")
+        self.ecg_channel_regex = re.compile("(?P<channel_name>ECG(\d*)|EKG(\d*))")
 
 
     def load_from_local(self):
