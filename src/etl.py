@@ -10,6 +10,7 @@ import tensorflow as tf
 import boto3
 import pyedflib
 import xml.etree.ElementTree as ET
+from scipy.signal import resample
 
 class RecordETL():
     '''
@@ -120,7 +121,7 @@ class EDFLoader():
             data.update(ecg_signal)
         return data
 
-    def load_from_s3(self, subdir=None):
+    def load_from_s3(self, subdir=None, sample_freq=None):
         '''
         '''
         data = {}
@@ -137,12 +138,12 @@ class EDFLoader():
             full_path_filename = os.path.join(self.edf_dir, edf_filename)
             with open(full_path_filename, 'wb') as f:
                 bucket.download_fileobj(edf_key, f)
-                ecg_signal = self.get_ecg_signal_from_file(edf_filename)
+                ecg_signal = self.get_ecg_signal_from_file(edf_filename, sample_freq)
                 data.update(ecg_signal)        
             os.remove(full_path_filename)
         return data
 
-    def get_ecg_signal_from_file(self, edf_filename):   
+    def get_ecg_signal_from_file(self, edf_filename, sample_freq=None):   
         '''
         '''
         record_name = self.edf_file_regex.match(edf_filename).groupdict()['record_name']
@@ -159,6 +160,10 @@ class EDFLoader():
             f._close()
     
             num_seconds = ecg_signal.shape[0] // ecg_freq
+            if sample_freq:
+                num_samples = num_seconds * sample_freq
+                ecg_signal = resample(ecg_signal, num_samples)
+
             ecg_signal = ecg_signal.reshape(num_seconds, ecg_freq)
         except OSError:
             print(f"Couldn't read {edf_filename}")
