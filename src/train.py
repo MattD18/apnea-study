@@ -12,7 +12,8 @@ class Experiment():
     def __init__(self, train_data, pipeline, model, optimizer, 
                  training_params, 
                  val_data=None,
-                 log_dir='dev_test'):
+                 log_dir='dev_test',
+                 weights_dir = None):
         '''
         '''
         self.raw_train_data = train_data
@@ -28,6 +29,7 @@ class Experiment():
         self.training_history = None
         self.timestamp = None
         self.log_dir = log_dir
+        self.weights_dir = weights_dir
 
     def train_model(self):
         self.timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%s")
@@ -44,6 +46,8 @@ class Experiment():
         self.model.compile(self.optimizer, self.loss, metrics=[acc_metric, precision_metric, recall_metric])
         self.model(tf.stack([record[0] for record in self.train_data.take(self.training_params['batch_size'])]))
 
+        if self.weights_dir:
+            self.load_model_weights(self.weights_dir)
 
         self.training_history = self.model.fit(x = self.train_data.batch(self.training_params['batch_size']), 
                                                validation_data=self.val_data.batch(self.training_params['batch_size']),
@@ -64,3 +68,11 @@ class Experiment():
     def save(self, save_dir):
         save_path = os.path.join(save_dir, self.timestamp)
         self.model.save_weights(save_path, save_format='tf')
+
+
+    def load_model_weights(self, weights_dir):
+        '''
+        Load model weights from weights_dir
+        see demo: https://colab.research.google.com/drive/172D4jishSgE3N7AO6U2OKAA_0wNnrMOq#scrollTo=OOSGiSkHTERy
+        '''
+        self.model.load_weights(weights_dir)

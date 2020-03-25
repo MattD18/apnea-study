@@ -60,7 +60,8 @@ if __name__ == '__main__':
                             model=model,
                             optimizer=optimizer,
                             training_params=config['training']['training_loop']['params'],
-                            val_data=raw_val_dataset)
+                            val_data=raw_val_dataset,
+                            weights_dir=config['training']['model_weights']['weights_dir'])
     experiment.run()
     experiment.save(sav_dir)
 
