@@ -41,5 +41,5 @@ Train Model on EC2
 6) docker run -it --rm -p 8888:8888 -v /Users/matthewdalton/Documents/Data\ Science/Sleep\ Apnea\ Study/apnea-study/:/usr/src/app/apnea-study -w /usr/src/app/apnea-study apnea python run_experiment.py configs/test_config.yaml
 7) Terminate EC2 instance
 
-View on Tensorboard Locally with:
+View on Tensorboard locally with:
 1) tensorboard --logdir logs/gradient_tape/dev_test/
