@@ -33,7 +33,7 @@ ETL Pipeline from .edf to .tfrecords with apnea labels and ECG signals
 
 Train Model on EC2
 
-1) Launch an EC2 instance (such as this one: <Add here>)
+1) Launch an EC2 instance
 2) Install and Set-Up AWS CLI and Git
 3) git clone https://github.com/MattD18/apnea-study
 4) cd apnea-study
