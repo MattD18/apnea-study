@@ -1,7 +1,7 @@
 awscli==1.16.298
 boto3==1.12.18
 jupyter==1.0.0
-numpy==1.17.0
+numpy==1.22.0
 pandas==0.25.1
 pyEDFlib==0.1.14
 scikit-learn==0.21.3
